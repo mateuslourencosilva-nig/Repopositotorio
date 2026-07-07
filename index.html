@@ -3,140 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone iFood - Catálogo de Delícias</title>
+    <title>Minha Página Estilizada</title>
+    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #f7f7f7;
-            color: #3e3e3e;
-        }
-
-        /* Header / Barra de Navegação */
+        /* Estilização do Cabeçalho */
         header {
-            background-color: #ea1d2c;
-            color: white;
-            padding: 15px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background-color: #183C63; /* Azul marinho com bom contraste */
+            color: #FFFFFF;            /* Texto branco */
+            padding: 20px;             /* Espaçamento interno para o texto não colar nas bordas */
         }
 
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            letter-spacing: -1px;
-        }
-
-        .search-bar {
-            flex: 0 1 500px;
-            display: flex;
-        }
-
-        .search-bar input {
-            width: 100%;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 8px;
-            font-size: 14px;
-            outline: none;
-            background-color: #f4f4f5;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: 600;
-        }
-
-        /* Container Principal */
+        /* Estilização do Conteúdo Principal */
         main {
-            max-width: 1200px;
-            margin: 30px auto;
-            padding: 0 20px;
+            background-color: #FFFFFF; /* Fundo branco */
+            color: #183C63;            /* Texto em azul marinho */
+            text-align: center;        /* Centraliza o texto */
+            max-width: 800px;          /* Define a largura máxima da caixa */
+            margin: 0 auto;            /* Margem 0 em cima/baixo e AUTO dos lados para centralizar o bloco */
+            padding: 20px;
         }
+    </style>
+</head>
+<body>
 
-        /* Banner Principal */
-        .banner {
-            width: 100%;
-            height: 200px;
-            background: linear-gradient(135deg, #ff416c, #ff4b2b);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 40px;
-            color: white;
-            margin-bottom: 40px;
-        }
+    <header>
+        <h1>Título do Meu Site</h1>
+    </header>
 
-        .banner h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
+    <main>
+        <h2>Meu Primeiro Post</h2>
+        <p>Este é o conteúdo principal da página. Graças ao CSS que adicionamos, ele não fica mais espalhado em telas grandes; agora ele respeita o limite de 800 pixels e fica perfeitamente centralizado na tela, com um contraste excelente para leitura!</p>
+    </main>
 
-        /* Seção de Categorias */
-        .section-title {
-            font-size: 22px;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .categories {
-            display: flex;
-            gap: 20px;
-            overflow-x: auto;
-            padding-bottom: 15px;
-            margin-bottom: 40px;
-        }
-
-        .category-card {
-            min-width: 140px;
-            background-color: white;
-            padding: 15px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            transition: transform 0.2s;
-            cursor: pointer;
-        }
-
-        .category-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .category-card img {
-            width: 80px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-
-        .category-card p {
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        /* Catálogo de Pratos (Grid) */
-        .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 25px;
-        }
-
-        .food-card {
-            background-color: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0
+</body>
+</html>
