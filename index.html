@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Estilizada</title>
+    <title>Minha Página Estilizada com Imagem</title>
     
     <style>
-        /* Estilização do Cabeçalho */
+        /* Estilização do Cabeçalho com ajustes de Layout e Box Model */
         header {
-            background-color: #183C63; /* Azul marinho com bom contraste */
-            color: #FFFFFF;            /* Texto branco */
-            padding: 20px;             /* Espaçamento interno para o texto não colar nas bordas */
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;   /* Largura máxima do bloco */
+            margin: 0 auto;     /* Centraliza o bloco na tela (0 cima/baixo, auto lados) */
+            padding: 16px;      /* Espaçamento interno (conforto visual) */
+            
+            /* Descomente a linha abaixo se quiser ver a borda vermelha de teste novamente: */
+            /* border: 5px solid #cf1010; */
         }
 
         /* Estilização do Conteúdo Principal */
         main {
-            background-color: #FFFFFF; /* Fundo branco */
-            color: #183C63;            /* Texto em azul marinho */
-            text-align: center;        /* Centraliza o texto */
-            max-width: 800px;          /* Define a largura máxima da caixa */
-            margin: 0 auto;            /* Margem 0 em cima/baixo e AUTO dos lados para centralizar o bloco */
-            padding: 20px;
+            background-color: #FFFFFF;
+            color: #183C63;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;      /* Padding adicionado também no main para manter o padrão */
+        }
+
+        /* Estilização e dimensionamento da Imagem */
+        img {
+            width: 80px;
+            height: 80px;
         }
     </style>
 </head>
@@ -31,6 +43,8 @@
     </header>
 
     <main>
+        <img src="imagem-blog.png" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+
         <h2>Meu Primeiro Post</h2>
         <p>Este é o conteúdo principal da página. Graças ao CSS que adicionamos, ele não fica mais espalhado em telas grandes; agora ele respeita o limite de 800 pixels e fica perfeitamente centralizado na tela, com um contraste excelente para leitura!</p>
     </main>
