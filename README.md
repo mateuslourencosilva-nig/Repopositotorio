@@ -1,1 +1,49 @@
 # Repopositotório.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIFUDY</title>
+    
+    <style>
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;  
+            margin: 0 auto;   
+            padding: 16px;      
+        
+        }
+
+        main {
+            background-color: #FFFFFF;
+            color: #183C63;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;   
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AIFUDY</h1>
+    </header>
+
+    <main>
+        <img src="imagem-blog.png" alt=>""
+
+        <h2>Oque sua fome pede?</h2>
+        <p>Pizza, hamburgueis, sushis, Hot dogs e marmitex</p>
+    </main>
+
+</body>
+</html>
